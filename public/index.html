@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090914">
+  <title>NEONRP — Your City. Your Story.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">N</span><span>NEON<span class="purple">RP</span><small>ROLEPLAY COMMUNITY</small></span></a>
+    <nav><a href="#about">O serwerze</a><a href="#features">Możliwości</a><a href="#rules">Regulamin</a></nav>
+    <div class="top-actions"><a class="discord-link" href="#" id="discordLink">Discord <span>↗</span></a><button class="login-btn" id="loginBtn">Zaloguj przez Discord</button></div>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> NOWY WYMIAR ROLEPLAY</div>
+        <h1>TWOJE MIASTO.<br><span>TWOJA HISTORIA.</span></h1>
+        <p>Wejdź do świata, w którym każda decyzja ma znaczenie. Stwórz postać, znajdź swoje miejsce i napisz własną historię na NEONRP.</p>
+        <div class="hero-buttons"><a class="primary-btn" href="#" id="joinBtn">DOŁĄCZ DO GRY <b>↗</b></a><a class="secondary-btn" href="#about">POZNAJ NEONRP <span>↓</span></a></div>
+        <div class="hero-meta"><div><strong>VOICE</strong><small>REALISTYCZNY ROLEPLAY</small></div><div><strong>COMMUNITY</strong><small>TWÓRZ Z NAMI MIASTO</small></div><div><strong>24/7</strong><small>ŻYJĄCY ŚWIAT</small></div></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-core"><div class="core-glow"></div><span>N</span><small>NEONRP</small></div><div class="float-tag tag-top">LOS SANTOS <b>● ONLINE WORLD</b></div><div class="float-tag tag-bottom"><span class="pulse"></span> YOUR NEXT CHAPTER STARTS HERE</div></div>
+      <div class="vertical-label">EST. ROLEPLAY EXPERIENCE — NEONRP</div>
+    </section>
+
+    <section class="ticker"><div>ROLEPLAY <b>✳</b> COMMUNITY <b>✳</b> IMMERSION <b>✳</b> YOUR STORY <b>✳</b> ROLEPLAY <b>✳</b> COMMUNITY <b>✳</b> IMMERSION <b>✳</b></div></section>
+
+    <section class="section about" id="about"><div class="section-label">01 / O SERWERZE</div><div class="section-heading"><h2>WIĘCEJ NIŻ<br><span>ZWYKŁA GRA.</span></h2><p>NEONRP to miejsce dla osób, które chcą przeżywać roleplay na własnych zasadach. Poznaj ludzi, rozwijaj swoją postać i buduj historię, do której chce się wracać.</p></div><div class="stats-grid"><article><strong>01</strong><h3>WŁASNA HISTORIA</h3><p>Każda postać to nowy początek i nieograniczone możliwości.</p></article><article><strong>02</strong><h3>AKTYWNA SPOŁECZNOŚĆ</h3><p>Dołącz do społeczności i poznaj ludzi z podobną pasją.</p></article><article><strong>03</strong><h3>ROZWÓJ SERWERA</h3><p>Nowe pomysły, wydarzenia i funkcje tworzone z myślą o graczach.</p></article></div></section>
+
+    <section class="feature-band" id="features"><div class="feature-inner"><div><div class="section-label">02 / DLACZEGO NEONRP</div><h2>WEJDŹ DO GRY.<br><span>ZOSTAŃ LEGENDĄ.</span></h2></div><div class="feature-list"><div><b>✦</b><span><strong>Immersyjny świat</strong><small>Stwórz postać i rozwijaj ją po swojemu.</small></span></div><div><b>✦</b><span><strong>Własna społeczność</strong><small>Wspólne wydarzenia i niezapomniane historie.</small></span></div><div><b>✦</b><span><strong>Wsparcie administracji</strong><small>Kontakt i pomoc przez oficjalny Discord.</small></span></div></div></div></section>
+
+    <section class="section rules" id="rules"><div class="section-label">03 / ZASADY</div><div class="rules-row"><h2>FAIR PLAY.<br><span>GOOD VIBES.</span></h2><div><p>Szanuj innych graczy, dbaj o klimat rozgrywki i poznaj zasady przed wejściem na serwer. Pełny regulamin oraz aktualne informacje znajdziesz na naszym Discordzie.</p><a href="#" class="text-link" id="rulesDiscord">PRZEJDŹ NA DISCORD ↗</a></div></div></section>
+
+    <section class="section" id="player"><div class="section-label">04 / STREFA GRACZA</div><div class="rules-row"><h2>TWOJA POSTAĆ.<br><span>TWOJE KONTO.</span></h2><div><p>Zaloguj się przez Discord, sprawdź profil i wyślij zgłoszenie do administracji.</p><button class="secondary-btn" id="playerOpen">OTWÓRZ PANEL GRACZA ↗</button></div></div></section>
+  <section class="admin-cta" id="panel"><div class="admin-cta-copy"><div class="section-label">STREFA PERSONELU</div><h2>PANEL<br><span>ADMINISTRATORA.</span></h2><p>Zaloguj się kontem Discord przypisanym do odpowiedniej roli na serwerze. Dostęp jest weryfikowany po stronie serwera.</p></div><div class="admin-card"><div class="admin-card-top"><span class="live-dot"></span> NEONRP CONTROL CENTER <span class="lock">⌑</span></div><div class="admin-icon">⌘</div><h3>ADMIN ACCESS</h3><p>Bezpieczne logowanie przez Discord OAuth2</p><button class="primary-btn full" id="panelLogin">OTWÓRZ PANEL <b>↗</b></button><small id="loginStatus">Dostęp tylko dla uprawnionych ról.</small></div></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">N</span><span>NEON<span class="purple">RP</span><small>ROLEPLAY COMMUNITY</small></span></a><span>© 2026 NEONRP. WSZYSTKIE PRAWA ZASTRZEŻONE.</span><a href="#top">WRÓĆ NA GÓRĘ ↑</a></footer>
+
+  <div class="modal hidden" id="adminModal"><div class="modal-box"><button class="close" id="closeModal">×</button><div class="section-label">NEONRP / CONTROL CENTER</div><h2>WITAJ W PANELU.</h2><p id="modalUser">Sprawdzanie sesji Discord…</p><div id="adminContent"></div><button class="secondary-btn" id="logoutBtn">WYLOGUJ</button></div></div>
+  <script src="/app.js"></script>
+</body>
+</html>

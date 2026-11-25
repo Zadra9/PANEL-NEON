@@ -1,0 +1,1 @@
+{"name":"neonrp-discord-bot","version":"1.0.0","scripts":{"start":"node bot.js","register":"node deploy.js"},"dependencies":{"discord.js":"^14.16.3","dotenv":"^16.4.7"}}
